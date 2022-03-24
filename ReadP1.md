@@ -54,6 +54,13 @@ Se decidió ocupar varias páginas que tengan distintas funciones, estas son a g
 
 Se empieza a trabajar en HTML y CSS
 
+```
+ let Btn = document.getElementById("Btn");
+Btn.addEventListener("click", Correcto);
+
+```
+
+
 
 Interfaz de usuario (UI)
 La interfaz debe permitir al usuario:
