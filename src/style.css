@@ -15,6 +15,8 @@
     background-image: url(https://i.ibb.co/xFXPh3Y/Dise-o-sin-t-tulo-22.png
     );
     background-repeat: repeat;
+    background-size: auto;
+    background-position: center;
     padding: 0;
     margin:0;
     text-align: center;
@@ -50,7 +52,33 @@
     
     border: 5px solid #ffffff; 
    }
-   .contenedor
-   {
+   #ABCD
+    {
+    background: rgb(90, 26, 143);
+    width: 10%;
+    padding: 5px;
+    margin: 5px; 
+    margin-top: 50px;
 
-   }
+    }
+input, button {
+    border: none;
+    outline: none;
+}
+
+main {
+    padding: 25px;
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+    border-radius: var(--borde-redondo);
+}
+.contenedor {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    border: 5px solid #ffffff;
+    background-color: rgb(90, 26, 143);
+}
