@@ -149,4 +149,8 @@ Se programa siguiente sprint y se trabaja en CSS la última hora del día.
 
  - Cajitas para la interfaz visual
  - cajas para el cifrador, una para el código a descifrar y otra para responder.
+
+ Se sube a GitHub
+
+ 
  
