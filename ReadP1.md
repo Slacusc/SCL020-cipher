@@ -117,8 +117,22 @@ Luego de un feedback con mis compañeras de laboratoria, quedamos todas de acuer
 
 Tambien se realiza en FIGMA un boceto rápido de cada una de las ventanas a crear.
 
-La interfaz visual ya está andando y ahora se empezará a trabajar con JS y todo lo que es cifrado
+La interfaz visual ya está andando y ahora se empezará a trabajar con JS y todo lo que es cifrado.
 
+28/03
+
+Se intenta aplicar el cifrador en javascript pero se necesita primero el ambiente visual para aplicarlo. Se prueban varios códigos y si bien funcionan, estos no se adecúan a lo que el proyecto busca.
+
+Finalmente se parte de cero con la caja que contendrá el cifrador y se logra algo rústico pero más cercano a lo que se busca en el proyecto.
+
+Se aplica bordes con sombra a las cajas de texto y también cifrador.
+
+**Cierre del primer sprint (31/03/2022)**
+
+- Feedbacks y presentación.
+- Programar planning segundo sprint en Trello.
+
+Se programa siguiente sprint y se trabaja en CSS la última hora del día.
 
 
 **Preguntas para OH:**

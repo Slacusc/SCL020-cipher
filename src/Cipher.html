@@ -7,37 +7,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
-  </head>
+<script src="index.js" type="module"></script>  
+</head>
   <body>
     <main>
     <div id="root">
       <div class="contenedor1"><h1 id="title">Survivors Stage</h1></div>
 
-      <div class="h2"><h2 id="subtitle">Solo podrás escapar de acá si resuelves mi acertijo, mi sistema está hecho para que en tan solo un minuto logres resolver mi cifrado, si no lo logras, serás lanzado al espacio.
-      <br><br> Suerte, humano.</div></h2>
-      <br><h3>Primera Prueba, codifica este código</h3>
-      <div class="title" id="ABCD">DEFG HIJK</div>
-      <div class="contenedor" form id="cifrador" autocomplete="off">
-        <input id="input-original" spellcheck="false" placeholder="Ingrese el texto" type="text" name="text">
-    </form>
-    <div id="resultado"></div>
-    <div class="rango">
-        <input id="rango" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
-        <output>10</output>
-    </div>
+      <div class="instrucciones"><h2 id="subtitle">Solo podrás escapar de acá si resuelves mi acertijo, mi sistema está hecho para que en tan solo un minuto logres resolver mi cifrado, si no lo logras, serás lanzado al espacio.
+      <br><br> Suerte, humano.</h2></div>
+      
+      <div class="mainContainer">
+        <h2>Cifrador</h2>
+      <label for="original">Original Messsage</label>
+      <input id="original" type="text" value="">
+      <label for="shift" >Shift</label>
+      <input id="shift" type="number">
+      <hr>
+      <label for="encrypted">Encrypted Message</label>
+      <input id="encrypted" type="text" value="" readonly required>
+      <div class="btn" id="Btn3">Verificar</div>
+      <div class="btn" id="Btn4">Resetear</div></div>
 
-
+      
+  
     </main>
       
-      
-      
-
-
-
-
-
-      
     </div>
-    <script src="cipher.js" type="module"></script>
+    
   </body>
 </html>

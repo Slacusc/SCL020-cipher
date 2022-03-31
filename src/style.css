@@ -28,10 +28,15 @@
 
    .h2
    {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 50px;
     text-align: center;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
 
    }
     
@@ -48,6 +53,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23);
    
     
     border: 5px solid #ffffff; 
@@ -80,5 +86,126 @@ main {
     align-items: center;
     margin-left: 5px;
     border: 5px solid #ffffff;
-    background-color: rgb(90, 26, 143);
+    background-color: rgb(132, 109, 160);
 }
+.mainContainer {
+    width: 250px;
+    margin: 0 auto;
+    height: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    border: 5px solid #ffffff;
+    background-color: rgb(132, 109, 160);
+    box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23);
+    }   
+
+  hr {
+      border: 1px solid var(--primary);
+      margin: 5px 0px;
+
+    }
+
+  #encrypted {  
+      border-color: black;
+      background-color: black;
+      color: white;
+      margin-bottom: 5px;
+    }
+
+  #subtitle
+    {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start; 
+      order: 1;
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-top: 50px;
+      text-align: left;
+  }
+  
+  .instrucciones
+    {
+    display: flex;
+    flex-flow: wrap;
+    text-align: left;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+    width: auto;
+    border: 5px solid #ffffff;
+    /*background-color: rgb(132, 109, 160);*/
+     }
+
+
+  
+ 
+
+  /*
+    #btn1
+    {
+      background: rgb(146, 114, 156);
+        width: 70%;
+        padding: 5px;
+        margin: 5px;
+        align-content: center; 
+        margin-left: 30px;
+
+    }
+    #btn1:hover{
+        background: SteelBlue;
+        cursor: pointer;
+      }
+
+
+
+
+
+
+/* 
+
+
+    h3 {
+      color: var(--primary);
+      border-bottom: 5px solid var(--primary);
+      padding: 20px;
+      margin-top: 0px;
+      font-size: 3em;
+      font-weight: 100;
+    }
+
+    label {
+      margin: 20px;
+      color: var(--darkGray);
+    }
+
+    input {
+      display: block;
+      font-family: var(--font);
+      font-size: 2em;
+      padding: 10px;
+      font-weight: 100;
+      border: 3px solid var(--gray);
+      margin: 20px;
+      background-color: var(--white);
+      width: calc(100% - 65px);
+    }
+
+    #encrypted {
+      border-color: var(--dark);
+      background-color: var(--dark);
+      color: var(--white);
+    }
+
+    .mainContainer {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+   
+
+
+    */
