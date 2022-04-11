@@ -1,6 +1,3 @@
-import cipher from './cipher.js';
-
-console.log(cipher);
 
 let Btn = document.getElementById("Btn");
 Btn.addEventListener("click", start);
