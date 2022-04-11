@@ -158,18 +158,6 @@ main {
 
   }
 
-  /* #btn4 {
-    cursor: pointer;
-    background: rgb(98, 52, 155);
-    width: 70%;
-    padding: 5px;
-    margin: 5px; 
-    border-radius: 15px;
-    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
-    margin-bottom: 5px;
-
-  } */
-  
   #text1 {
     border-radius: 15px;
     box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
@@ -180,77 +168,65 @@ main {
     box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
   }
 
-  #encrypted {
+  #encrypt {
     border-radius: 15px;
     box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
   }
 
-
-  
- 
-
-  /*
-    #btn1
-    {
-      background: rgb(146, 114, 156);
-        width: 70%;
-        padding: 5px;
-        margin: 5px;
-        align-content: center; 
-        margin-left: 30px;
-
-    }
-    #btn1:hover{
-        background: SteelBlue;
-        cursor: pointer;
-      }
-
-
-
-
-
-
 /* 
+ .secondContainer {
+    width: 250px;
+    margin: 0 auto;
+    height: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: auto;
+    margin-bottom: 5px;
+    margin-top: 50px; 
+    border: 5px solid rgb(255, 255, 255);
+ /*background: radial-gradient(circle, purple, white 40%, rgb(114, 97, 125));*/
+    /* background-color: rgba(75, 65, 160,0.8);
+    box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23); */
+/* 
+}
 
+.h3 {
 
-    h3 {
-      color: var(--primary);
-      border-bottom: 5px solid var(--primary);
-      padding: 20px;
-      margin-top: 0px;
-      font-size: 3em;
-      font-weight: 100;
-    }
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content: flex-start; 
+ margin-left: 200px;
+ margin-right: 200px;
+ margin-top: 50px;
+ text-align: center;
+ box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
 
-    label {
-      margin: 20px;
-      color: var(--darkGray);
-    }
+}
 
-    input {
-      display: block;
-      font-family: var(--font);
-      font-size: 2em;
-      padding: 10px;
-      font-weight: 100;
-      border: 3px solid var(--gray);
-      margin: 20px;
-      background-color: var(--white);
-      width: calc(100% - 65px);
-    }
+#text2 {
+  border-radius: 15px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+}
 
-    #encrypted {
-      border-color: var(--dark);
-      background-color: var(--dark);
-      color: var(--white);
-    }
+#shift2 {
+  border-radius: 15px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+}
 
-    .mainContainer {
-      max-width: 1000px;
-      margin: 0 auto;
-    }
+#encrypt2 {
+  border-radius: 15px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);  
 
-   
+ }
 
-
-    */
+ #btn4 {
+  cursor: pointer;
+  background: rgb(98, 52, 155);
+  box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+  width: 70%;
+  padding: 5px;
+  margin: 30px 10px;
+  border-radius: 15px;
+} */ 
