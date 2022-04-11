@@ -12,10 +12,10 @@
   body
   {
     background: #000033; 
-    background-image: url(https://i.ibb.co/xFXPh3Y/Dise-o-sin-t-tulo-22.png
+    background-image: url(https://i.ibb.co/8DhyMbT/Dise-o-sin-t-tulo-24.png
     );
-    background-repeat: repeat;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-position: center;
     padding: 0;
     margin:0;
@@ -87,6 +87,7 @@ main {
     margin-left: 5px;
     border: 5px solid #ffffff;
     background-color: rgb(132, 109, 160);
+
 }
 .mainContainer {
     width: 250px;
@@ -99,7 +100,8 @@ main {
     margin-bottom: 5px;
     margin-top: 50px;
     border: 5px solid #ffffff;
-    background-color: rgb(132, 109, 160);
+    /*background: radial-gradient(circle, purple, white 40%, rgb(114, 97, 125));*/
+    background-color: rgba(75, 65, 160,0.8);
     box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23);
     }   
 
@@ -109,18 +111,22 @@ main {
 
     }
 
-  #encrypted {  
-      border-color: black;
-      background-color: black;
-      color: white;
+  #encrypt {  
+      /* border-color: black;
+      background-color: black; */
+      color: black;
       margin-bottom: 5px;
+      box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+      border-radius: 15px;
+
+      
     }
 
   #subtitle
     {
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
+      flex-wrap: wrap;      
       justify-content: flex-start; 
       order: 1;
       margin-left: 200px;
@@ -131,7 +137,7 @@ main {
   
   .instrucciones
     {
-    display: flex;
+    display: inline-flex;
     flex-flow: wrap;
     text-align: left;
     box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
@@ -139,6 +145,45 @@ main {
     border: 5px solid #ffffff;
     /*background-color: rgb(132, 109, 160);*/
      }
+     
+  #btn3 {
+    cursor: pointer;
+    background: rgb(98, 52, 155);
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+    width: 70%;
+    padding: 5px;
+    margin: 30px 10px;
+    border-radius: 15px;
+ 
+
+  }
+
+  /* #btn4 {
+    cursor: pointer;
+    background: rgb(98, 52, 155);
+    width: 70%;
+    padding: 5px;
+    margin: 5px; 
+    border-radius: 15px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+    margin-bottom: 5px;
+
+  } */
+  
+  #text1 {
+    border-radius: 15px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+  #shift {
+    border-radius: 15px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+  #encrypted {
+    border-radius: 15px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+  }
 
 
   

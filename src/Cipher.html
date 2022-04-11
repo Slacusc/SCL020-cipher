@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Survivors Starship</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
-<script src="index.js" type="module"></script>  
+
+<head>
+  <meta charset="utf-8">
+  <title>Survivors Starship</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <script src="index2.js" type="module"></script>
 </head>
-  <body>
-    <main>
+
+<body>
+  <main>
     <div id="root">
-      <div class="contenedor1"><h1 id="title">Survivors Stage</h1></div>
+      <div class="contenedor1">
+        <h1 id="title">Survivors Stage</h1>
+      </div>
 
       <div class="instrucciones">
-      <h2 id="subtitle">Solo podrás escapar de acá si resuelves mi acertijo, mi sistema está hecho para que en tan solo un minuto logres resolver mi cifrado, si no lo logras, serás lanzado al espacio.</h2></div>
-      
+        <h2 id="subtitle">Solo podrás escapar de acá si resuelves mi acertijo, mi sistema está hecho para que en tan
+          solo un minuto logres resolver mi cifrado, si no lo logras, serás lanzado al espacio.</h2>
+      </div>
+
       <div class="mainContainer">
         <h2>Cifrador</h2>
-      <label for="original">Original Messsage</label>
-      <input id="original" type="text" value="">
-      <label for="shift" >Shift</label>
-      <input id="shift" type="number">
-      <hr>
-      <label for="encrypted">Encrypted Message</label>
-      <input id="encrypted" type="text" value="" readonly required>
-      <div class="btn" id="Btn3">Verificar</div>
-      <div class="btn" id="Btn4">Resetear</div></div>
-
-      
-  
-    </main>
-      
+        <div for="cifrador">Codificar
+          <input id="text1" type="text" placeholder="  Tienes 3 intentos">
+        </div>
+        <label for="shift">Desplazamiento</label>
+        <input id="shift" type="number" min="1" max="10">
+        <hr>
+        <label for="encrypt">Mensaje Encriptado</label>
+        <input id="encrypt" type="text" readonly required>
+        <div class="btn" id="btn3">Verificar</div>
+      </div>
     </div>
-    
-  </body>
+
+
+
+
+  </main>
+
+</body>
+
 </html>
