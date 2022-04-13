@@ -36,10 +36,24 @@
     margin-right: 200px;
     margin-top: 50px;
     text-align: center;
+    border: 5px solid #ffffff; 
     box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
 
    }
-    
+   
+   h3 {
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    text-align: center;
+
+   }
+  
    .Btn
    {
     cursor: pointer;   
@@ -89,7 +103,7 @@ main {
     background-color: rgb(132, 109, 160);
 
 }
-.mainContainer {
+.ciphercontainer {
     width: 250px;
     margin: 0 auto;
     height: 0 auto;
@@ -104,6 +118,13 @@ main {
     background-color: rgba(75, 65, 160,0.8);
     box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23);
     }   
+ /* .ciphercontainer.red {
+  background-color: rgb(137, 104, 178);
+  color: white;
+ } */
+
+  
+
 
   hr {
       border: 1px solid var(--primary);
@@ -173,8 +194,8 @@ main {
     box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
   }
 
-/* 
- .secondContainer {
+
+ /* .secondContainer {
     width: 250px;
     margin: 0 auto;
     height: 0 auto;
@@ -185,11 +206,11 @@ main {
     margin-bottom: 5px;
     margin-top: 50px; 
     border: 5px solid rgb(255, 255, 255);
- /*background: radial-gradient(circle, purple, white 40%, rgb(114, 97, 125));*/
-    /* background-color: rgba(75, 65, 160,0.8);
-    box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23); */
-/* 
-}
+    background: radial-gradient(circle, purple, white 40%, rgb(114, 97, 125));
+    background-color: rgba(75, 65, 160,0.8);
+    box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23);
+ 
+} */
 
 .h3 {
 
@@ -229,4 +250,22 @@ main {
   padding: 5px;
   margin: 30px 10px;
   border-radius: 15px;
-} */ 
+} 
+
+#timer {
+  width: 250px;
+  margin: 0 auto;
+  height: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: auto;
+  margin-bottom: 5px;
+  margin-top: 50px; 
+  border: 5px solid rgb(255, 255, 255);
+/*background: radial-gradient(circle, purple, white 40%, rgb(114, 97, 125));*/
+  background-color: rgba(75, 65, 160,0.8);
+  box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23);
+  border-radius: 15px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+}

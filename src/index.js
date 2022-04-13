@@ -10,6 +10,7 @@ Btn.addEventListener("click", start);
 
 
 
+
 // let text1 = document.getElementById("text1");
 // text1.addEventListener("keyup", ()=>{
 // text1.value = text1.value.toUpperCase()
