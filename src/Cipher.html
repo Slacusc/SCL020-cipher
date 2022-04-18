@@ -9,8 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
   <script src="index2.js" type="module"></script>
-  <script src="timer.js" type="module"></script>
-  
 
 </head>
 
@@ -21,47 +19,55 @@
         <h1 id="title">Survivors Stage</h1>
       </div>
 
-      <div><div class="instrucciones">
-        <h3><i>Encuentra los códigos a cifrar/descifrar en los siguientes párrafos. Considera cada párrafo como un código para codificar y decodificar (no olvides ocupar espacios). Ocupa el desplazamiento para encontrar la solucion. ¡Mucha suerte!</i></h3></h3>
-        <h2 id="subtitle"> NO creas que será tan fácil escaPar de acá, debes resolver mis prUEbas, De no podEr, mi Sistema Se encArgará de que saLgas de mI nave sin pensaRlo dos veces.
-           <br><br>De loGrar  escapar soLo confirma que mientras mas lo intentas, menos alcanzaRás tu meta de enfrentarte a mi sabiduría y control Total sobre esta naVe.</h2>
-      </div>
-
-      
-      <h4>Cuenta regresiva</h4>
-      <div class="timer"><input id="timer" type="number"></div>
-
-      <div class="ciphercontainer">
-        <h2>Cifrador</h2>
-        <div for="cifrador">Codificar
-          <input id="text1" type="text" placeholder="  Tienes 3 intentos">
+      <div class="contenedor2">
+        <div class="instrucciones">
+          <h3><i>Encuentra los códigos a cifrar/descifrar en los siguientes párrafos. Considera cada párrafo como un
+              código para codificar y decodificar (no olvides ocupar espacios). Ocupa el desplazamiento para encontrar
+              la solucion. ¡Mucha suerte!</i></h3>
+          <h2 id="subtitle"> NO creas que será tan fácil escaPar de acá, debes resolver mis prUEbas, De no podEr, mi
+            Sistema Se encArgará de que saLgas de mI nave sin pensaRlo dos veces.
+            <br><br>De loGrar escapar soLo confirma que mientras mas lo intentas, menos alcanzaRás tu meta de
+            enfrentarte a mi sabiduría y control total sobre esta naVe.
+          </h2>
         </div>
-        <label for="shift">Desplazamiento</label>
-        <input id="shift" type="number" min="1" max="5">
-        <hr>
-        <label for="encrypt">Mensaje Encriptado</label>
-        <input id="encrypt" type="text" readonly required>
-        <div class="btn" id="btn3">Verificar</div>
-      </div>
+
+<!-- 
+        <h4>Cuenta regresiva</h4>
+        <div class="timer"><input id="timer" type="number"></div> -->
+
+        <div class="codificadores">
+          <div class="ciphercontainer">
+            <h2>Cifrador</h2>
+            <div for="cifrador">Codificar
+              <input id="text1" type="text" placeholder="  Tienes 3 intentos">
+            </div>
+            <label for="shift">Desplazamiento</label>
+            <input id="shift" type="number" min="1" max="5">
+            <hr>
+            <label for="encrypt">Mensaje Encriptado</label>
+            <input id="encrypt" type="text" readonly required>
+            <div class="btn" id="btn3">Verificar</div>
+          </div>
 
 
 
 
-      <div class="ciphercontainer red">
-        <h2 class = "red">Desencripta</h2>
-        <div for="cifrador2">Desencripta
-          <input id="text2" type="text" placeholder="  Tienes 1 intento">
+          <div class="ciphercontainer red">
+            <h2 class="red">Desencripta</h2>
+            <div for="cifrador2">Desencripta
+              <input id="text2" type="text" placeholder="  Tienes 1 intento">
+            </div>
+            <label for="shift2">Desplazamiento</label>
+            <input id="shift2" type="number" min="1" max="3">
+            <hr>
+            <label for="encrypt2">Respuesta</label>
+            <input id="encrypt2" type="text" readonly required>
+            <div class="btn" id="btn4">Verificar</div>
+          </div>
         </div>
-        <label for="shift2">Desplazamiento</label>
-        <input id="shift2" type="number" min="1" max="3">
-        <hr>
-        <label for="encrypt2">Respuesta</label>
-        <input id="encrypt2" type="text" readonly required>
-        <div class="btn" id="btn4">Verificar</div>
       </div>
     </div>
-  </div>
-    
+
 
 
 

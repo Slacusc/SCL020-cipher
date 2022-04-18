@@ -72,6 +72,15 @@
     
     border: 5px solid #ffffff; 
    }
+
+   .contenedor2 {
+     display:flex;
+     margin-top: 100px;
+   }
+
+   .instrucciones,.codificadores {
+     width: 50%;
+   }
    #ABCD
     {
     background: rgb(90, 26, 143);
@@ -152,8 +161,8 @@ main {
       order: 1;
       margin-left: 200px;
       margin-right: 200px;
-      margin-top: 50px;
-      text-align: left;
+      margin-top: 100px;
+
   }
   
   .instrucciones
@@ -162,11 +171,21 @@ main {
     flex-flow: wrap;
     text-align: left;
     box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
-    width: auto;
+    /* width: auto; */
     border: 5px solid #ffffff;
+    padding: 20px;
     /*background-color: rgb(132, 109, 160);*/
      }
-     
+  
+  .instrucciones h3 {
+    margin: 0 0 50px 0;
+  }
+  
+  .instrucciones #subtitle{
+    text-align: center;
+    margin: 0;
+
+  }
   #btn3 {
     cursor: pointer;
     background: rgb(98, 52, 155);
@@ -251,7 +270,7 @@ main {
   margin: 30px 10px;
   border-radius: 15px;
 } 
-
+/* 
 #timer {
   width: 250px;
   margin: 0 auto;
@@ -264,8 +283,19 @@ main {
   margin-top: 50px; 
   border: 5px solid rgb(255, 255, 255);
 /*background: radial-gradient(circle, purple, white 40%, rgb(114, 97, 125));*/
-  background-color: rgba(75, 65, 160,0.8);
+  /* background-color: rgba(75, 65, 160,0.8);
   box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23);
   border-radius: 15px;
   box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+} */ 
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.astro {
+
+  height: 300px;
+  width: 300px;
 }

@@ -6,7 +6,7 @@ Btn.addEventListener("click", start);
     alert("Cuidado con lo que deseas, viajero.")
     window.location="Cipher.html";
 
-    };
+}
 
 
 

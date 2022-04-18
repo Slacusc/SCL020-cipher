@@ -21,7 +21,7 @@ if (text1 == null || text1 == 0 || text1 == [] || shift == 0 || shift == [] || s
 
 //shift correcto: 3
 
-if (resultado == "QR SXHGHV VDOLU"){ 
+if (resultado == "PQ RWGFGU UCNKT"){ 
 alert("NO CREAS QUE PODRÁS ESCAPAR, INTENTA CODIFICAR LA SEGUNDA FRASE OCULTA EN LAS INSTRUCCIONES"); 
     
 }
@@ -32,7 +32,7 @@ if (resultado == "OP QVFEFT TBMJS"){
         
     }
 
-if (resultado == "PQ RWGFGU UCNKT"){ 
+if (resultado == "QR SXHGHV VDOLU "){ 
         alert("WARNING"); 
             
     }

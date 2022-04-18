@@ -1,3 +1,19 @@
+**Historia**
+-
+Una tripulación terrestre se ha visto encerrada en su propia nave debido a que la inteligencia artificial que los ayudaba se rebeló contra ellos. Eres el último con vida y solo quieres huir a las capsulas de rescate, pero la IA hará lo imposible para que no puedas huir y contar la verdad de lo ocurrido.
+¿Podrás salvarte?
+
+
+**Instrucciones de Juego**
+- 
+- Encontrar las dos frases para codificar/decodificar en los dos párrafos presentados.
+- Es importante respetar los espacios de encontrar en la frase.
+- Ocupar el desplazamiento que corresponda según el usuario logre descubrir.
+- Si falla, será Game Over.
+- Si gana, tendrá un bonus y podrá pasar a la siguiente etapa.
+
+
+
 
 
 README.md: debe explicar cómo descargar, instalar y ejecutar la aplicación así como una introducción a la aplicación, su funcionalidad y decisiones de diseño que tomaron.
@@ -6,6 +22,7 @@ En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proces
 
 
 **Proyecto "Videojuego"**
+-
 
 Se realizó una primera encuesta a usuarios de consola y PC para saber que preferencias tneían respecto a los juegos. El resultado de la encuesta arrojó los siguientes resultados.
 
@@ -119,7 +136,7 @@ Tambien se realiza en FIGMA un boceto rápido de cada una de las ventanas a crea
 
 La interfaz visual ya está andando y ahora se empezará a trabajar con JS y todo lo que es cifrado.
 
-28/03
+**28/03/2022**
 
 Se intenta aplicar el cifrador en javascript pero se necesita primero el ambiente visual para aplicarlo. Se prueban varios códigos y si bien funcionan, estos no se adecúan a lo que el proyecto busca.
 
@@ -132,25 +149,10 @@ Se aplica bordes con sombra a las cajas de texto y también cifrador.
 - Feedbacks y presentación.
 - Programar planning segundo sprint en Trello.
 
-Se programa siguiente sprint y se trabaja en CSS la última hora del día.
+Se programa siguiente  y se trabaja en CSS la última hora del día.
 
-
-**Preguntas para OH:**
-
- - tienen que ser los dos requisitos del cifrador?
-
-    *Interfaz de usuario (UI)
-    La interfaz debe permitir al usuario:
-    Elegir un desplazamiento (offset) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
-    Insertar un mensaje (texto) que queremos cifrar.
-    Ver el resultado del mensaje cifrado.
-    Insertar un mensaje (texto) a descifrar.
-    Ver el resultado del mensaje descifrado.*
-
- - Cajitas para la interfaz visual
- - cajas para el cifrador, una para el código a descifrar y otra para responder.
-
- Se sube a GitHub
-
+**18/04/2022**
  
+ Ultimando detalles se terminan de corregir contenedores en CSS y se verifica nuevamente los codificadores.
  
+ Se prepara el proyecto para Proyect Feedback.
