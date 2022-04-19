@@ -1,0 +1,301 @@
+* {
+    transition: all 0.5s;
+  }
+
+#root
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  body
+  {
+    background: #000033; 
+    background-image: url(https://i.ibb.co/8DhyMbT/Dise-o-sin-t-tulo-24.png
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 0;
+    margin:0;
+    text-align: center;
+    font-size: 120%;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+
+   }
+
+   .h2
+   {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    text-align: center;
+    border: 5px solid #ffffff; 
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+
+   }
+   
+   h3 {
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    text-align: center;
+
+   }
+  
+   .Btn
+   {
+    cursor: pointer;   
+   }
+   .contenedor1
+   {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23);
+   
+    
+    border: 5px solid #ffffff; 
+   }
+
+   .contenedor2 {
+     display:flex;
+     margin-top: 100px;
+   }
+
+   .instrucciones,.codificadores {
+     width: 50%;
+   }
+   #ABCD
+    {
+    background: rgb(90, 26, 143);
+    width: 10%;
+    padding: 5px;
+    margin: 5px; 
+    margin-top: 50px;
+
+    }
+input, button {
+    border: none;
+    outline: none;
+}
+
+main {
+    padding: 25px;
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+    border-radius: var(--borde-redondo);
+}
+.contenedor {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    border: 5px solid #ffffff;
+    background-color: rgb(132, 109, 160);
+
+}
+.ciphercontainer {
+    width: 250px;
+    margin: 0 auto;
+    height: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    border: 5px solid #ffffff;
+    /*background: radial-gradient(circle, purple, white 40%, rgb(114, 97, 125));*/
+    background-color: rgba(75, 65, 160,0.8);
+    box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23);
+    }   
+ /* .ciphercontainer.red {
+  background-color: rgb(137, 104, 178);
+  color: white;
+ } */
+
+  
+
+
+  hr {
+      border: 1px solid var(--primary);
+      margin: 5px 0px;
+
+    }
+
+  #encrypt {  
+      /* border-color: black;
+      background-color: black; */
+      color: black;
+      margin-bottom: 5px;
+      box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+      border-radius: 15px;
+
+      
+    }
+
+  #subtitle
+    {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;      
+      justify-content: flex-start; 
+      order: 1;
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-top: 100px;
+
+  }
+  
+  .instrucciones
+    {
+    display: inline-flex;
+    flex-flow: wrap;
+    text-align: left;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+    /* width: auto; */
+    border: 5px solid #ffffff;
+    padding: 20px;
+    /*background-color: rgb(132, 109, 160);*/
+     }
+  
+  .instrucciones h3 {
+    margin: 0 0 50px 0;
+  }
+  
+  .instrucciones #subtitle{
+    text-align: center;
+    margin: 0;
+
+  }
+  #btn3 {
+    cursor: pointer;
+    background: rgb(98, 52, 155);
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+    width: 70%;
+    padding: 5px;
+    margin: 30px 10px;
+    border-radius: 15px;
+ 
+
+  }
+
+  #text1 {
+    border-radius: 15px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+  #shift {
+    border-radius: 15px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+  #encrypt {
+    border-radius: 15px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+
+ /* .secondContainer {
+    width: 250px;
+    margin: 0 auto;
+    height: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: auto;
+    margin-bottom: 5px;
+    margin-top: 50px; 
+    border: 5px solid rgb(255, 255, 255);
+    background: radial-gradient(circle, purple, white 40%, rgb(114, 97, 125));
+    background-color: rgba(75, 65, 160,0.8);
+    box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23);
+ 
+} */
+
+.h3 {
+
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content: flex-start; 
+ margin-left: 200px;
+ margin-right: 200px;
+ margin-top: 50px;
+ text-align: center;
+ box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+#text2 {
+  border-radius: 15px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#shift2 {
+  border-radius: 15px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#encrypt2 {
+  border-radius: 15px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);  
+
+ }
+
+ #btn4 {
+  cursor: pointer;
+  background: rgb(98, 52, 155);
+  box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+  width: 70%;
+  padding: 5px;
+  margin: 30px 10px;
+  border-radius: 15px;
+} 
+/* 
+#timer {
+  width: 250px;
+  margin: 0 auto;
+  height: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: auto;
+  margin-bottom: 5px;
+  margin-top: 50px; 
+  border: 5px solid rgb(255, 255, 255);
+/*background: radial-gradient(circle, purple, white 40%, rgb(114, 97, 125));*/
+  /* background-color: rgba(75, 65, 160,0.8);
+  box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 5px 6px rgba(0,0,0,0.23);
+  border-radius: 15px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+} */ 
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.astro {
+
+  height: 300px;
+  width: 300px;
+}
