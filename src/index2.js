@@ -15,17 +15,15 @@ let shift = parseInt(document.getElementById("shift").value);
 // alert(resultado);
 document.getElementById("encrypt").value = resultado;
 
-if (text1 == null || text1 == 0 || text1 == [] || shift == 0 || shift == [] || shift == null){
-    throw new TypeError('todo mal!')
-}
 
-//shift correcto: 3
+
+//shift correcto: 2
 
 if (resultado == "PQ RWGFGU UCNKT"){ 
 alert("NO CREAS QUE PODRÁS ESCAPAR, INTENTA CODIFICAR LA SEGUNDA FRASE OCULTA EN LAS INSTRUCCIONES"); 
     
 }
-//shifts incorrectos: 1, 2, 4, 5
+//shifts incorrectos: 1, 3, 4, 5
 
 if (resultado == "OP QVFEFT TBMJS"){ 
     alert("WARNING"); 
