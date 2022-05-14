@@ -44,28 +44,13 @@ document.getElementById("btn4").addEventListener("click", function () {
   document.getElementById("encrypt2").value = resultado;
   // decodificar "DGLRV" shift 3
   if (resultado == "ADIOS") {
-  alert("UNA VICTORIA NO ES NADA, NOS VEMOS EN LA SIGUIENTE PRUEBA, HUMANO")
-    window.location = "win.html"
-
-    if (resultado == "CFKQU"){ 
-      alert("ADIOS HUMANO")
-      window.location="GAMEOVER.html";
-          
-  }
-  
-  if (resultado == "BEJPT"){ 
-      alert("ADIOS HUMANO")
-      window.location="GAMEOVER.html";
-          
-  } 
-  }});
+    alert("UNA VICTORIA NO ES NADA, NOS VEMOS EN LA SIGUIENTE PRUEBA, HUMANO")
+    window.location = "win.html"  
     
-  //  } else
-  //  alert("ADIOS HUMANO")
-  // window.location = "GAMEOVER.html"
-  // });
-
-
+  }else { 
+  alert("ADIOS HUMANO")
+  window.location="GAMEOVER.html";
+}});
 //para mayusculas cuando se ingrese a texto
 
 let text2 = document.getElementById("text2");
@@ -77,10 +62,6 @@ text2.addEventListener("keyup", () => {
 
 // let verify = document.getElementById("btn3");
 // verify.addEventListener("click", ()=>{
-
-
-
-
 
 // let text1 = document.getElementById("text1");
 // text1.addEventListener("keyup", ()=>{
