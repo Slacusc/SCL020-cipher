@@ -13,10 +13,10 @@ Btn.addEventListener("click", start);
 //para mayusculas cuando se ingrese a texto
 
 let text1 = document.getElementById("text1");
+if(text1){
 text1.addEventListener("keyup", () => {
   text1.value = text1.value.toUpperCase();
-});
-
+})};
 
 
 document.getElementById("btn3").addEventListener("click", function () {
@@ -75,5 +75,19 @@ Btn6.addEventListener("click", restart);
       window.location="index.html";
 }
 };
+//boton bonus
 
+
+
+
+// let bonus = document.getElementById("fortaleza");
+// if(fortaleza){
+// fortaleza.addEventListener("click", () => {
+//   selectedPokemon.resistant.forEach(tipo => pokemonfortaleza = filtrartipos(tipo))
+//   let img = document.getElementById("pokepoke");
+//   img.src = selectedPokemon.img;
+//   img.classList.add("show");
+//   document.getElementById("number").innerHTML = `<p class="hola mauri" > Número ${selectedPokemon.num} - ${selectedPokemon.name}</p>`;
+//   });
+// }
 
